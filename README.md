@@ -17,8 +17,20 @@ Before creating your first Laravel project, make sure that your local machine ha
  ```
 
 3. **Composer Bağımlılıklarını Yükleme:**
+ ```
+ composer require laravel/ui
+ ```
+ 
+4. **Standart kayıt arayüzü ekleme:**
+ ```
+ php artisan ui bootstrap --auth
+ ```
 
-5. **Uygulama Anahtarını Oluşturma:**
+5. **Klasorleri derler:**
+ ```
+ npm install
+ npm run dev
+ ```
 
 10. **Sunucuyu Başlatma:**
  ```
