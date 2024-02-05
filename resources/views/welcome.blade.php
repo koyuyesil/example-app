@@ -1,5 +1,6 @@
 @extends('layouts.app')
-@yield('navbar')
-@section('content')
-     {{ __('asdasddasdasdasd') }}
+
+@section('navbar')
+     @include('layouts.navbar')
 @endsection
+
