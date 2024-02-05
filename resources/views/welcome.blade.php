@@ -1,5 +1,5 @@
 @extends('layouts.app')
- 
+@yield('navbar')
 @section('content')
-    {{-- Content goes here--}}
+     {{ __('asdasddasdasdasd') }}
 @endsection
